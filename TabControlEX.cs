@@ -27,7 +27,7 @@ namespace TabEX {
             TabItemEX ti = new TabItemEX() { Header = rHeader, ParentTC = this, Content = new Frame { Content = rPage } };
             ti.Exitable = rExitable;
             Items.Add(ti);
-
+            SelectedValue = ti;
         }
 
         bool _uniquepage = false;
