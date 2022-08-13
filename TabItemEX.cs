@@ -25,7 +25,8 @@ namespace TabEX {
 		bool _exitable  = true;
 		public bool Exitable {
 			get { return _exitable; } 
-			set { 
+			set {
+				int x = 0;
 				_exitable = value;
 				OnApplyTemplate();
 			} 
